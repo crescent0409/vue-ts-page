@@ -27,6 +27,11 @@ export default new Router({
                     component: () => import(/* webpackChunkName: "about" */ "./views/MultipleArticle.vue"),
                 }
             ]
+        },
+        {
+            path: "/result",
+            name: "result",
+            component: () => import(/* webpackChunkName: "about" */ "./views/Result.vue"),
         }
     ],
 });

@@ -10,7 +10,7 @@ import BootstrapVue from "bootstrap-vue";
 
 Vue.use(BootstrapVue);
 Vue.config.productionTip = false;
-Vue.prototype.axios = service;
+Vue.prototype.$https = service;
 
 new Vue({
   router,
