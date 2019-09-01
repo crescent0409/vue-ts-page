@@ -1,0 +1,113 @@
+{   
+    "article" : "<span class='sub'>中国电信</span> <span class='pred'>表示</span><span class='obj'>将始终坚持以客户为中心，统筹推进4G和5G协同发展，不断提升整体网络服务水平与用户使用感知。</span>",
+    "result": [
+        {
+            "subject": "一个人",
+            "predicate": "说",
+            "object": "我饿了"
+        },
+        {
+            "subject": "中国电信",
+            "predicate": "表示",
+            "object": "将始终坚持以客户为中心，统筹推进4G和5G协同发展，不断提升整体网络服务水平与用户使用感知。"
+        },
+        {
+            "subject": "库兹马",
+            "predicate": "表示",
+            "object": "他不会退出美国男篮，他相信自己打完世界杯会变得更好。"
+        }
+    ],
+    "nodes": [
+        {
+            "id": 1,
+            "name": "my node 1"
+        },
+        {
+            "id": 2,
+            "name": "my node 2"
+        },
+        {
+            "id": 3,
+            "_color": "orange"
+        },
+        {
+            "id": 4
+        },
+        {
+            "id": 5
+        },
+        {
+            "id": 6
+        },
+        {
+            "id": 7
+        },
+        {
+            "id": 8
+        },
+        {
+            "id": 9
+        },
+        {
+            "id": "node1",
+            "name": "node1"
+        },
+        {
+            "id": "node2",
+            "name": "node2"
+        }
+    ],
+    "links": [
+        {
+            "sid": 1,
+            "tid": 2,
+            "name": "link1"
+        },
+        {
+            "sid": "node1",
+            "tid": "node2",
+            "name": "link2"
+        },
+        {
+            "sid": "node1",
+            "tid": "node2",
+            "name": "link3"
+        },
+        {
+            "sid": 1,
+            "tid": 2
+        },
+        {
+            "sid": 2,
+            "tid": 8
+        },
+        {
+            "sid": 3,
+            "tid": 4
+        },
+        {
+            "sid": 4,
+            "tid": 5
+        },
+        {
+            "sid": 5,
+            "tid": 6
+        },
+        {
+            "sid": 7,
+            "tid": 8
+        },
+        {
+            "sid": 5,
+            "tid": 8
+        },
+        {
+            "sid": 3,
+            "tid": 8
+        },
+        {
+            "sid": 7,
+            "tid": 9
+        }
+    ]
+}
